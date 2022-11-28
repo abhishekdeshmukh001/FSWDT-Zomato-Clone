@@ -11,7 +11,7 @@ import AddressList from "../components/Checkout/AddressList";
 // redux
 import { useSelector } from "react-redux";
 
-const Checkout = (props) => {
+const Checkout = () => {
     const cart = useSelector((globalState) => globalState.cart.cart);
     const user = useSelector((globalState) => globalState.user);
 
@@ -57,11 +57,11 @@ const Checkout = (props) => {
             <div className="w-full md:w-3/5 rounded-lg py-3 drop-shadow-2xl bg-white flex flex-col items-center p-4">
                 <h3 className="text-lg font-semibold">Summary</h3>
                 <div className="flex w-full flex-col gap-2 items-center">
-                    {/* <h5 className="text-base tracking-wider">ORDER FROM</h5> */}
+                    {/* <h5 className="text-base tracking-wider">ORDER FROM</h5>
                     <div className="flex w-full flex-col items-center text-gray-400">
-                        {/* <h4>{props.name}</h4>
-                        <small>{props.address}</small> */}
-                    </div>
+                        <h4>{props.name}</h4>
+                        <small>{props.address}</small>
+                    </div> */}
                     <div className="my-4 h-32 overflow-y-scroll px-4 flex flex-col gap-2 w-full md:w-3/5">
                         {cart.map((item) => (
                             <FoodItem key={item._id} {...item} />
