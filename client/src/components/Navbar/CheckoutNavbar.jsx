@@ -28,7 +28,7 @@ const CheckoutNavbar = () => {
                         <div className="flex items-center justify-center gap-3">
                             <div className="border border-gray-300 text-zomato-400 w-10 h-10 rounded-full overflow-hidden">
                                 <img
-                                    src="/images/avatar.png"
+                                    src="https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
                                     alt=""
                                     className="w-full h-full rounded-full object-cover"
                                 />
