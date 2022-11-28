@@ -164,10 +164,10 @@ const Overview = () => {
 
                     <div className="my-4 w-full md:hidden flex flex-col gap-4">
                         <MapView
-                            title="McDonald's"
-                            phno="+193423542345"
-                            mapLocation={getLatLong("28.64121406271755, 77.21955482132051")}
-                            address="H-5/6, Plaza Building, Connaught Place, New Delhi"
+                            title="Al Arabian Express"
+                            phno="+91974832478"
+                            mapLocation={getLatLong("20.004590366841423, 73.76382601024409")}
+                            address="College Road, Nashik"
                         />
                     </div>
                 </div>
@@ -177,11 +177,11 @@ const Overview = () => {
                 className="hidden md:flex md:w-4/12 sticky rounded-xl top-20 bg-white py-4 px-4 shadow-md flex-col gap-4"
             >
                 <MapView
-                    title="McDonald's"
-                    phno="+193423542345"
-                    mapLocation={getLatLong("28.64121406271755, 77.21955482132051")}
-                    latAndLong={"28.64121406271755, 77.21955482132051"}
-                    address="H-5/6, Plaza Building, Connaught Place, New Delhi"
+                    title="Al Arabian Express"
+                    phno="+91974832478"
+                    mapLocation={getLatLong("20.004590366841423, 73.76382601024409")}
+                    latAndLong={"20.004590366841423, 73.76382601024409"}
+                    address="College Road, Nashik"
                 />
             </aside>
         </div>
