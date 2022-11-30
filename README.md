@@ -5,7 +5,7 @@ Zomato Clone project developed using MERN Stack.
 
 ## Acknowledgements
 
- - Internhip / Training Program :- @ Devtown
+ - Internship / Training Program :- @ Devtown
  - Guided By :- Aditya Gusain Sir.
 
 
